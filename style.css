@@ -1,0 +1,71 @@
+body{
+    background-color: beige;
+    display: grid;
+    place-items: center;
+}
+header, footer{
+    background-color: rgb(250, 10, 90);
+    height: 150px;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+ul {
+    padding-left: 0;
+}
+ul a {
+    color: black;
+}
+li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px pink;
+    border-right: 1px pink;
+    border-radius: 4px; box-shadow: inset 2px 2px 5px lightpink;
+    background-color: beige;
+}
+li :hover{
+    background-color: rgb(250, 10, 90);
+}  
+p {
+    text-align: center;
+}
+img{
+    height: 450px;
+    max-width: 100%;
+}  
+table{
+    border-collapse: collapse;
+    width: 800px;
+    background-color:   rgb(250, 10, 90);
+}
+td, th{
+    padding: 10px 5px;
+}
+input[type="text"] , input[type="email"] , textarea, select, button
+         {
+            display: block;
+            margin: 15px 0px;
+            width: 400px;
+            box-sizing: border-box;
+            border-radius: 4px; box-shadow: inset 2px 2px 5x lightgreen;
+        }
+        textarea{
+            height: 100px;
+            padding: 5px 4px;
+        }
+        button:active{
+            background-color: lightpink;
+            color: white;
+            border-radius: 4px; box-shadow: inset 2px 2px 5px pink;
+        }
+       div{
+        padding-left: 20px;
+        padding-right: 20px;
+       }
+
+    
